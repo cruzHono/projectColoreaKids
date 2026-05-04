@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - ColoreaKids</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #1a73e8;
+        }
+        p, li {
+            text-align: justify;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Política de Privacidad</h1>
+    <p><strong>Última actualización:</strong> <span id="fecha"></span></p>
+    <p>En <strong>ColoreaKids</strong> nos comprometemos a proteger la privacidad de los niños y de sus padres o tutores. Esta política explica cómo manejamos la información cuando utilizas nuestra aplicación de colorear.</p>
+
+    <h2>1. Información que recopilamos</h2>
+    <p><strong>No recopilamos información de identificación personal (PII)</strong> como nombres, direcciones, correos electrónicos, números de teléfono o ubicación precisa. La aplicación no requiere registro ni inicio de sesión.</p>
+    <p>Sin embargo, utilizamos servicios de terceros (Google AdMob) que pueden recopilar ciertos datos anónimos para mostrar anuncios apropiados. Estos datos incluyen:</p>
+    <ul>
+        <li>Dirección IP (anonimizada)</li>
+        <li>Identificadores de dispositivo no persistentes (por ejemplo, IDFV)</li>
+        <li>Datos de uso básicos (interacciones con anuncios)</li>
+        <li>Idioma y configuración regional del dispositivo</li>
+    </ul>
+    <p>No compartimos activamente estos datos; Google AdMob los procesa según sus propias políticas de privacidad, todas ellas en cumplimiento con COPPA y el RGPD para audiencias infantiles.</p>
+
+    <h2>2. Publicidad y terceros</h2>
+    <p>Nuestra app muestra anuncios proporcionados por <strong>Google AdMob</strong>. Para apps dirigidas a niños, AdMob está configurado para:</p>
+    <ul>
+        <li>No realizar personalización de anuncios basada en intereses.</li>
+        <li>No transmitir identificadores publicitarios (IDFA/AAID).</li>
+        <li>Solicitar contenido publicitario apto para menores (etiqueta G).</li>
+    </ul>
+    <p>Puedes revisar la política de privacidad de Google AdMob aquí: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+    <h2>3. Datos generados por el usuario</h2>
+    <p>Los dibujos que los niños crean se almacenan únicamente <strong>en su dispositivo local</strong>. No subimos, compartimos ni accedemos a esas imágenes. Los padres pueden eliminar los dibujos en cualquier momento borrando los datos de la app en los ajustes del dispositivo o desinstalando la aplicación.</p>
+
+    <h2>4. Cumplimiento con COPPA y RGPD</h2>
+    <p>Esta aplicación está diseñada para niños. Cumplimos con la Ley de Protección de la Privacidad Infantil en Línea (COPPA) de EE. UU. y con el Reglamento General de Protección de Datos (RGPD) de la UE. No recopilamos a sabiendas información personal de niños menores de 13 años (o la edad aplicable en tu país). Si un padre/tutor cree que hemos recopilado datos por error, contáctenos de inmediato para eliminarlos.</p>
+
+    <h2>5. Enlaces externos</h2>
+    <p>La aplicación no contiene navegadores web integrados ni permite acceder a sitios externos. Los anuncios pueden incluir enlaces a la tienda de aplicaciones o a páginas de promoción, pero siempre bajo el control parental de las propias tiendas (se requiere salir de la app para abrir el enlace).</p>
+
+    <h2>6. Derechos de los padres</h2>
+    <p>Los padres o tutores pueden solicitar:</p>
+    <ul>
+        <li>Información sobre qué datos se han recopilado (en nuestro caso, prácticamente ninguno).</li>
+        <li>La eliminación de cualquier dato involuntario enviándonos un correo.</li>
+    </ul>
+    <p><strong>Correo de contacto:</strong> <a href="mailto:honorio.cruz.sal@gmail.com">honorio.cruz.sal@gmail.com</a> </p>
+
+    <h2>7. Cambios a esta política</h2>
+    <p>Podemos actualizar esta política ocasionalmente. Te notificaremos cualquier cambio publicando la nueva versión en esta URL. La fecha de "última actualización" se modificará en consecuencia.</p>
+
+    <div class="footer">
+        <p>Si tienes preguntas sobre esta política de privacidad, contáctanos en: <strong>honorio.cruz.sal@gmail.com</strong></p>
+        <p>© <span id="anio"></span> ColoreaKids - Todos los derechos reservados.</p>
+    </div>
+
+    <script>
+        document.getElementById("fecha").innerText = new Date().toLocaleDateString('es-ES');
+        document.getElementById("anio").innerText = new Date().getFullYear();
+    </script>
+</body>
+</html>
